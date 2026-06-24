@@ -1,12 +1,10 @@
 package com.project.automated_financial_ledger;
 
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 import com.project.automated_financial_ledger_system.service.InventoryService;
 import com.project.automated_financial_ledger_system.model.InventoryItem;
 import java.time.LocalDate;
 
-@Component
 public class DataInitializer implements CommandLineRunner {
 
     private final InventoryService inventoryService;
