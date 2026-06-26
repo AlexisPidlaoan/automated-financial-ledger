@@ -1,8 +1,9 @@
-package com.project.automated_financial_ledger_system.repository;
+package com.project.automated_financial_ledger.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.project.automated_financial_ledger_system.model.InventoryItem;
+
+import com.project.automated_financial_ledger.model.InventoryItem;
 
 @Repository
 public interface InventoryItemRepository extends JpaRepository<InventoryItem, Long> {

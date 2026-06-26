@@ -1,11 +1,12 @@
-package com.project.automated_financial_ledger_system.service;
+package com.project.automated_financial_ledger.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.project.automated_financial_ledger_system.model.InventoryItem;
-import com.project.automated_financial_ledger_system.model.InventoryBatch;
-import com.project.automated_financial_ledger_system.repository.InventoryItemRepository;
-import com.project.automated_financial_ledger_system.repository.InventoryBatchRepository;
+
+import com.project.automated_financial_ledger.model.InventoryBatch;
+import com.project.automated_financial_ledger.model.InventoryItem;
+import com.project.automated_financial_ledger.repository.InventoryBatchRepository;
+import com.project.automated_financial_ledger.repository.InventoryItemRepository;
 
 import java.time.LocalDate;
 import java.util.List;

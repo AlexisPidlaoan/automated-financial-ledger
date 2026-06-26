@@ -1,10 +1,11 @@
-package com.project.automated_financial_ledger_system.controller;
+package com.project.automated_financial_ledger.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.project.automated_financial_ledger_system.service.InventoryService;
-import com.project.automated_financial_ledger_system.model.InventoryItem;
-import com.project.automated_financial_ledger_system.model.InventoryBatch;
+
+import com.project.automated_financial_ledger.model.InventoryBatch;
+import com.project.automated_financial_ledger.model.InventoryItem;
+import com.project.automated_financial_ledger.service.InventoryService;
 
 import java.time.LocalDate;
 import java.util.Map;
