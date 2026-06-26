@@ -1,4 +1,4 @@
-package com.project.automated_financial_ledger_system.model;
+package com.project.automated_financial_ledger.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
